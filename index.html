@@ -15,6 +15,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
     <nav class="w3-sidebar w3-collapse w3-black w3-animate-left" style="z-index:3;width:300px;" id="mySidebar">
         <br>
         <div class="w3-container">
+            <!-- does this onclick work for touch on mobile????-->
             <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
                 <i class="fa fa-remove"></i>
             </a>
@@ -52,7 +53,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
                 <iframe width="373.3" height="210" src="https://www.youtube.com/embed/OatxBhY8x4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="w3-container w3-black">
                     <p><b>JMARS AR Viewer</b></p>
-                    <p>I lead a team of undergraduate students to develop JMARS AR and VR experiences. We extend JMARS, a planetary GIS that provides mission planning and data analysis tools, to visualize planetary terrains in AR and VR.  The JMARS AR Viewer app is free on the App and Google Play stores. </p>
+                    <p>I lead a team of designers and engineers to develop JMARS AR and VR experiences. We extend JMARS, a planetary GIS that provides mission planning and data analysis tools, to visualize planetary terrains in AR and VR.  The JMARS AR Viewer app is free on the App and Google Play stores. </p>
                 </div>
             </div>
 
@@ -169,7 +170,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
                     <p><center>Scan snapcode to see me in AR</center></p>
                 </div>
 
-                <!-- Snapcodes
+                <!-- Snapcodes - insert new AR pics here !
                     <div class="w3-col m3">
                         <img src="/Users/laurengold/Desktop/snapcodes/Azami.png" alt="Me" style="width:100%">
                     </div>
@@ -188,7 +189,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
                 <p>
                     Creative software developer with professional experience in augmented and virtual reality, as well as immersive media installations. A complex problem solver, I aspire to break boundaries of human experience through the use of mixed reality.
                     I graduated from Arizona State University in December 2019 with a B.S. in Digital Culture, Media Processing. I am currently pursuing a Ph.D. in Media Arts and Sciences at ASU.
-                <p> In my spare time, I like to collaborate with 3D artists to make Instagram and Snapchat lenses. If you scan the Snapcode above, you will be entertained by a virtual mini me.  My hobbies include: playing multiuser VR games, snowboarding, traveling and teaching yoga.</p>
+                <p> In my spare time, I like to collaborate with 3D artists to make Instagram and Snapchat AR filters. If you scan the Snapcode above, you will be entertained by a virtual mini me.  My hobbies include: playing multiuser VR games, snowboarding, traveling and teaching yoga.</p>
 
                 <h4><b>Resume</b></h4>
                 <p>
@@ -251,11 +252,13 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
                 function w3_open() {
                     document.getElementById("mySidebar").style.display = "block";
                     document.getElementById("myOverlay").style.display = "block";
+                
                 }
 
                 function w3_close() {
                     document.getElementById("mySidebar").style.display = "none";
                     document.getElementById("myOverlay").style.display = "none";
+
                 }
                 function linktores() {
                     <a target="_blank" href="https://lg-portfolio-images.s3-us-west-2.amazonaws.com/Resume2021.pdf"> Click here to view or print my resume. </a>

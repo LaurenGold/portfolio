@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <title>Lauren Gold</title>
 <meta charset="UTF-8">
@@ -9,93 +9,148 @@
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
 </style>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
-
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-black w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
-    <div class="w3-container">
-        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
-            <i class="fa fa-remove"></i> 
-        </a>
-        <img src="https://lg-portfolio-images.s3-us-west-2.amazonaws.com/selfie1.png" style="width:45%;" class="w3-round"><br><br>
-        <h4><b>Lauren Gold</b></h4>
-
-    </div>
-    <div class="w3-bar-block">
-        <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
-        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
-        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
-    </div>
-</nav>
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px">
-
-    <!-- Header -->
-    <header id="portfolio">
-        <a href="#"><img src="/Users/laurengold/IdeaProjects/Portfolio_Website/selfie1.png " style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+<body class="w3-black w3-shine w3-content" style="max-width:1600px">
+    
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-black w3-animate-left" style="z-index:3;width:300px;" id="mySidebar">
+        <br>
         <div class="w3-container">
-            <h1><b>My Work</b></h1>
-        </div>
-    </header>
+            <!-- does this onclick work for touch on mobile????-->
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="https://lg-portfolio-images.s3-us-west-2.amazonaws.com/profpic.jpeg" style="width:45%;" class="w3-round"><br><br>
+            <h4><b>Lauren Gold</b></h4> <!-- "https://lg-portfolio-images.s3-us-west-2.amazonaws.com/selfie1.png" -->
 
-    <!-- First Photo Grid-->
-    <div class="w3-row-padding">
-        <div class="w3-third w3-container w3-margin-bottom">
-            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/-FbKJ1HZIII" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="w3-container w3-white">
-                <p><b>Mars VR</b></p>
-                <p>Built scientifically accurate mesh models of Martian environments for use in VR and AR by using imaging data gathered by the Curiosity Rover and the CRISM instrument on the Mars Reconnaissance Orbiter.</p>
-            </div>
         </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/1nCSnX1rp1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="w3-bar-block">
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-yellow"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+            <a href="#resume" onclick="linktores()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>RESUME</a>
 
-            <div class="w3-container w3-white">
-                <p><b>Hexx</b></p>
-                <p>Hexx is an interactive installation that seeks to unite the audience with a live electronic set. We set up motion tracking inside of the structure
-                and we string that data through a script that I made in Max for Live. The motion is then an instrument or audio effect of choice for the musician. It can be plugged into Ableton Live for multiple uses. </p>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#"><img src="/Users/laurengold/IdeaProjects/Portfolio_Website/selfie1.png " style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <h1><b>Portfolio</b></h1>
+            </div>
+        </header>
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container">
+                <iframe width="373.3" height="210" src="https://www.youtube.com/embed/OatxBhY8x4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="w3-container w3-black">
+                    <p><b>JMARS AR Viewer</b></p>
+                    <p>I lead a team of designers and engineers to develop JMARS AR and VR experiences. We extend JMARS, a planetary GIS that provides mission planning and data analysis tools, to visualize planetary terrains in AR and VR.  The JMARS AR Viewer app is free on the App and Google Play stores. </p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="373.3" height="210" src="https://www.youtube.com/embed/qBzLjo6pbVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    <div class="w3-container w3-black">
+                    <p><b>ASU Commencement App</b></p>
+                    <p>
+                        My colleagues and I were asked to help make virtual ASU Commencement a little more personal this year, by making an augmented reality app that brought the commencement stage to students' living rooms.
+                        We captured the speakers' point clouds with Microsoft Kinects and callibrated them for use in AR, to give off the illusion that the speaker is right there in your home. We plan to update and add features to the app for future commencements.
+                    </p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="373.3" height="210" src="https://www.youtube.com/embed/UeHkvfY11jQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p><b>Live Point Cloud Shading</b></p>
+                <p>
+                    I experimented with 3D capture throughout the semester for one of my academic courses. In Max MSP, I made a patch that lets me interact with variants of a point cloud shader and edit my point cloud in real time. This video is a mashup of some
+                    of my favorite effects I got while doing a live 3D capture with my sister, who majors in dance. We plan to collaborate and update this work in progress.
+                </p>
             </div>
         </div>
-        <div class="w3-third w3-container">
-            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/zCMXipL9S9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="w3-container w3-white">
-                <p><b>Cake AR</b></p>
-                <p>This is a multiplayer iOS game that I made in mobile development class. The goal is to catch more cake than the other player. It was recognized at the Digital Culture Showcase in Spring 2019.</p>
+
+        <!-- Second Photo Grid-->
+
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="373.3" height="210" src="https://www.youtube.com/embed/3xPLxVRq64A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                <div class="w3-container w3-gl w3-transparent">
+                    <p><b>Planetary Visor - Research</b></p>
+                    <p>
+                        Planetary Visor is a scientific tool used to visualize orbital and ground data around NASA's Curiosity rover's traverse on Mars.
+                        I lead the software development team on and research immersive scientific visualization and interaction methods.
+                    </p>
+                </div>
             </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="373.3" height="210" src="https://www.youtube.com/embed/vO9lAm1wfUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="w3-container w3-black">
+                    <p><b>Timeline Installation</b></p>
+                    <p>
+                        I made an interactive timeline to show my home videos from when I was a one year old to present (2019). When I got older, the videos transitioned to experiences I recorded, rather than someone recording me, and you can start to see life through my lenses.
+                        The pillows have sensors in them that allow me to traverse through the videos when I tap them. I chose this type of interaction to make the experience feel softer and more personal.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="373.3" height="210" src="https://www.youtube.com/embed/1nCSnX1rp1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <div class="w3-container w3-transparent">
+                    <p><b>Hexx</b></p>
+                    <p>
+                        Hexx is an interactive installation that unites the audience with live electronic music. We set up motion tracking inside of the structure
+                        and use that data in Ableton Live, using a Max for live plugin that we created. The motion is then an instrument or audio effect of choice for the musician. It can be plugged into Ableton Live for multiple uses.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container">
+                <iframe width="373.3" height="210" src="https://www.youtube.com/embed/zCMXipL9S9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="w3-container w3-black">
+                    <p><b>Cake AR</b></p>
+                    <p>This was just a fun little iOS game that I made in mobile development class when I was dabbling with multiplayer experiences and augmented reality for the first time. It was recognized at the Digital Culture Showcase in Spring 2019.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-dark">
+                <iframe width="373.3" height="210" src="https://www.youtube.com/embed/BsTHp-RLW0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="w3-container w3-transparent">
+                    <p> <div class="w3-container w3-text-light-grey"> </div><b>Musical Raspberry Pi</b></p>
+                    <p>I created a musical composition out of sounds curated in Java with the help of the Happy Brackets toolkit. I made use of the accelerometer on the Raspberry Pi hat to control which pattern to play. </p>
+                </div>
+            </div>
+            
+
+            <!--  mac dev vid
+    <div class="w3-third w3-container w3-margin-bottom">
+        <iframe width="373.3" height="210" src="https://www.youtube.com/embed/_3HChynfStQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="w3-container w3-white">
+            <p><b>Whacky Whitehouse (2018)</b></p>
+            <p>This is the first game I made with Swift. It is 2D and controlled by mouse click/drag. The goal is to avoid reporters like Acosta(-10 points)and get more spray tans(+5 points). </p>
         </div>
     </div>
+    -->
 
-    <!-- Second Photo Grid-->
-    <div class="w3-row-padding">
-        <div class="w3-third w3-container w3-margin-bottom">
-            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/vO9lAm1wfUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div class="w3-container w3-white">
-                <p><b>Timeline Installation</b></p>
-                <p>I made an interactive timeline to show my home videos from when I was one year old to present. When I got older, the videos transitioned to experiences I recorded, rather than someone recording me.
-                The pillows have sensors in them that allow me to traverse through the videos when I tap them.</p>
+            <div class="w3-third w3-container">
+                <iframe width="373.3" height="210" src="https://www.youtube.com/embed/yJTUMIc99Kg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> style="width:100%" class="w3-hover-opacity"</iframe>
+                <div class="w3-container w3-black">
+                    <p><b>Video Editing</b></p>
+                    <p>In film editing class, we had to make a documentary of ourselves. I thought my awkward dances would speak louder than words. I don't know if I had more fun filming it, dancing in it, or editing it. It was recognized as one of the top films in class.</p>
+                </div>
             </div>
-        </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/_3HChynfStQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <div class="w3-container w3-white">
-                <p><b>Whacky Whitehouse (2018)</b></p>
-                <p>This is the first game I made with Swift. It is 2D and controlled by mouse click/drag. The goal is to avoid reporters like Acosta(-10 points)and get more spray tans(+5 points). </p>
-            </div>
-        </div>
-        <div class="w3-third w3-container">
-            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/yJTUMIc99Kg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> style="width:100%" class="w3-hover-opacity"</iframe>
-            <div class="w3-container w3-white">
-                <p><b>Video Editing</b></p>
-                <p>In film editing class, we had to make a documentary of ourselves. I thought my awkward dances would speak louder than words. It was recognized as one of the top films in class.</p>
-            </div>
-        </div>
-    </div>
 
-    <!-- Pagination
+
+
+
+            <!--Pagination
     <div class="w3-center w3-padding-32">
         <div class="w3-bar">
             <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
@@ -106,61 +161,50 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
             <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
         </div>
     </div>
-        -->
-    <!-- Images of Me -->
-    <div class="w3-row-padding w3-padding-16" id="about">
-        <div class="w3-col m3">
-            <img src="https://lg-portfolio-images.s3-us-west-2.amazonaws.com/hello.png
+    -->
+            <!-- Images of Me -->
+            <div class="w3-row-padding w3-padding-16" id="about">
+                <div class="w3-col m3">
+                    <img src="https://lg-portfolio-images.s3-us-west-2.amazonaws.com/hello.png
              " alt="Me" style="width:100%">
-        </div>
-        <!-- Snapcodes
-        <div class="w3-col m3">
-            <img src="/Users/laurengold/Desktop/snapcodes/Azami.png" alt="Me" style="width:100%">
-        </div>
-        <div class="w3-col m3">
-            <img src="/Users/laurengold/Desktop/snapcodes/Carouselsnapcode.png" alt="Me" style="width:100%">
-        </div>
-        <div class="w3-col m3">
-            <img src="/Users/laurengold/Desktop/snapcodes/DanceSnapcode.png
-" alt="Me" style="width:100%">
-        </div>
-        -->
-    </div>
+                    <p><center>Scan snapcode to see me in AR</center></p>
+                </div>
 
-    <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-        <h4><b>About Me</b></h4>
-        <p> I am graduating from Arizona State University in December 2019 with a BS in Digital Culture. If you scan the Snapcode above, you will be entertained by a 3D version of me.
-            I am proud to say that this lens I developed has over 50k views. Sometimes, my best work happens when I'm not even working. I am passionate about creative technology and always
-        find ways to integrate my imagination with the project at hand. I am currently a Virtual Reality Developer, working on the Mars VR project, as shown above.
-        During this project, I have gotten the chance to not only implement design decisions that I see fit, but optimize it to be compatible across all VR platforms.</p>
-        <p> In my spare time, I love to hike, snowboard, travel and teach yoga.</p>
-        <hr>
+                <!-- Snapcodes - insert new AR pics here !
+                <div class="w3-col m3">
+                    <img src="/Users/laurengold/Desktop/snapcodes/Azami.png" alt="Me" style="width:100%">
+                </div>
+                <div class="w3-col m3">
+                    <img src="/Users/laurengold/Desktop/snapcodes/Carouselsnapcode.png" alt="Me" style="width:100%">
+                </div>
+                <div class="w3-col m3">
+                    <img src="/Users/laurengold/Desktop/snapcodes/DanceSnapcode.png
+        " alt="Me" style="width:100%">
+                </div>
+                -->
+            </div>
 
-        <h4><b>Resume</b></h4>
-        <p>
-            <a href =  "/Users/laurengold/IdeaProjects/Portfolio_Website/LGold_Res.pdf "> Click here to view or print my resume. </a>
-        </p>
+            <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+                <h4><b>About Me</b></h4>
+                <p>
+                    Creative software developer with professional experience in augmented and virtual reality, as well as immersive media installations. A complex problem solver, I aspire to break boundaries of human experience through the use of mixed reality.
+                    I graduated from Arizona State University in December 2019 with a B.S. in Digital Culture, Media Processing. I am currently pursuing a Ph.D. in Media Arts and Sciences at ASU.
+                <p> In my spare time, I like to collaborate with 3D artists to make Instagram and Snapchat AR filters. If you scan the Snapcode above, you will be entertained by a virtual mini me.  My hobbies include: playing multiuser VR games, snowboarding, traveling and teaching yoga.</p>
 
-        <h4><b>Technical Skills</b></h4>
-        <!-- Progress bars / Skills -->
-        <p>VR Development on all platforms</p>
-        <p>AR Development</p>
-        <p>Unity</p>
-        <p>C#</p>
-        <p>Java</p>
-        <p>Max MSP</p>
-        <p>Video Editing</p>
-        <hr>
+                <h4><b>Resume</b></h4>
+                <p>
+                    <a target="_blank" href=https://lg-portfolio-images.s3-us-west-2.amazonaws.com/LaurenGold_Resume2021.pdf> Click here to view or print my resume. </a>
+                </p>
 
-    </div>
+            </div>
 
-    <!-- Contact Section -->
-    <div class="w3-container w3-padding-large w3-grey">
+            <!-- Contact Section
+    <div class="w3-container w3-padding-large w3-white">
         <h4 id="contact"><b>Contact Me</b></h4>
         <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
             <div class="w3-third w3-dark-grey">
                 <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
-                <p>laurengold19@gmail.com</p>
+                <p>llgold@asu.edu</p>
             </div>
             <div class="w3-third w3-teal">
                 <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
@@ -172,31 +216,54 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
             </div>
         </div>
         <hr class="w3-opacity">
-    </div>
+    </div>-->
+            <div class="w3-container w3-padding-large w3-black">
+                <hr>
+                <h4 id="contact"></h4>
+                <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+                    <div class="w3-third w3-black">
+                        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>llgold@asu.edu</p>
+                    </div>
+                    <div class="w3-third w3-black">
+                        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>Tempe, AZ</p>
+                    </div>
+                    <div class="w3-third w3-black">
+                        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+                        <p>972-533-1107</p>
+                    </div>
+                </div>
+                <hr class="w3-opacity">
+            </div>
 
-    <!-- Footer -->
-    <footer class="w3-container w3-padding-32 w3-dark-grey">
-        <div class="w3-row-padding">
+            <!-- Footer -->
+            <footer class="w3-container w3-padding-32 w3-black">
+                <div class="w3-row-padding">
 
+                </div>
+            </footer>
+
+
+            <!-- End page content -->
         </div>
-    </footer>
 
+            <script>// Script to open and close sidebar
+                function w3_open() {
+                    document.getElementById("mySidebar").style.display = "block";
+                    document.getElementById("myOverlay").style.display = "block";
+                
+                }
 
-    <!-- End page content -->
-</div>
+                function w3_close() {
+                    document.getElementById("mySidebar").style.display = "none";
+                    document.getElementById("myOverlay").style.display = "none";
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
-
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
+                }
+                function linktores() {
+                    <a target="_blank" href="https://lg-portfolio-images.s3-us-west-2.amazonaws.com/Resume2021.pdf"> Click here to view or print my resume. </a>
+                    
+                }</script>
 
 </body>
 </html>

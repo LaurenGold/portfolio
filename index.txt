@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<title>Lauren Gold</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: "Helvetica", sans-serif
+    }
+</style>
+<body class="w3-white w3-shine w3-content" style="max-width:1600px">
+
+    <!-- Sidebar -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="width:250px; position: fixed; top: 0; bottom: 0; left: 0; z-index: 1;" id="mySidebar">
+        <br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_open()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-red" title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="https://lg-portfolio-images.s3.us-west-2.amazonaws.com/headshot24.png" style="width:100%;" class="w3-square"><br><br>
+            <h4><b>Lauren Gold</b></h4>
+            <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Research Projects</a>
+            <a href="#products" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Products</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+            <a href="#news" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bars fa-fw w3-margin-right"></i>NEWS</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! TODO: SPLIT TO RESEARCH AND PERSONAL -->
+    <div class="w3-main">
+
+        <!-- Header -->
+        <header id="portfolio">
+            <a href="#"><img src="/Users/laurengold/IdeaProjects/Portfolio_Website/selfie1.png " style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-pink" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <h1><b>Research Project Highlights</b></h1>
+            </div>
+        </header>
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="100%" height="210" src="https://www.youtube.com/embed/jFKJ7I0FSks?si=T3XlAbHb_8s5or7" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>     
+                <div class="w3-container w3-black"></div>
+                <p><b>Planetary Parfait</b></p>
+                    <p>
+                        <!--TODO-->
+                    </p>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="100%" height="210" src="https://www.youtube.com/embed/RgqYUPuGjzc?si=oAAsrr8he0BGr1uM"  
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>     
+                <div class="w3-container w3-black"></div>
+                <p><b>VR Stereo Viewer</b></p>
+                    <p>
+                        <!--TODO-->
+                    </p>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="100%" height="210" src="https://www.youtube.com/embed/8_ul5i-7_Fc"  
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>     
+                <div class="w3-container w3-black"></div>
+                <p><b>JMARS XR Viewer AGU'22</b></p>
+                    <p>
+                        <!--TODO-->
+                    </p>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="100%" height="210" src="https://www.youtube.com/embed/8_ul5i-7_Fc" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+                <div class="w3-container w3-black">
+                    <p><b>JMARS XR Viewer AGU'22</b></p>
+                    <p>
+                        <!--NASA instruments on Mars and orbiting Mars collect large amounts of geospatial data at vastly different scales.
+                        Planetary Visor is our virtual reality tool to visualize ground data and orbital data in the same visual space.-->
+                    </p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="100%" height="210" src="https://www.youtube.com/embed/vU1ooD8uu3A?start=19973" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <div class="w3-container w3-black">
+                    <p><b>Planetary Visor IEEEVR'21</b></p>
+                    <p>
+                        <!--NASA instruments on Mars and orbiting Mars collect large amounts of geospatial data at vastly different scales.
+                        Planetary Visor is our virtual reality tool to visualize ground data and orbital data in the same visual space.-->
+                    </p>
+                </div>
+            </div>
+
+            <div class="w3-third w3-container w3-margin-bottom">
+                <iframe width="100%" height="210" src="https://www.youtube.com/embed/QtbkiHH5Lbs" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <div class="w3-container w3-black">
+                    <p><b>Mars Metaverse AGU'21</b></p>
+                    <p>
+                        <!--TODO-->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            <!--<div class="w3-third w3-container w3-margin-bottom">
+            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/OatxBhY8x4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="w3-container w3-black">
+                <p><b>JMARS AR Viewer</b></p>
+                <p>
+
+            </div>
+        </div>
+
+        <!--<div class="w3-third w3-container w3-margin-bottom">
+            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/qBzLjo6pbVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="w3-container w3-black">
+                <p><b>ASU Commencement App</b></p>
+                <p>
+                    My colleagues and I were asked to help make virtual ASU Commencement a little more personal this year, by making an augmented reality app that brought the commencement stage to the living rooms of students and families.
+                We used volumetric capture to give off the illusion that the speaker is right there in your home. We plan to update and add features to the app for future commencements.
+                </p>
+            </div>
+        </div> -->
+            <!---<div class="w3-third w3-container w3-margin-bottom">
+            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/Q3K7IqLNLuE"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="w3-container w3-black">
+                <p><b>Augmented Coach</b></p>
+                <p>
+
+                </p>
+            </div>
+        </div>-->
+            <!----<div class="w3-third w3-container w3-margin-bottom">
+            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/UeHkvfY11jQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><b>Live Point Cloud Shading</b></p>
+            <p>
+                I experimented with 3D capture throughout the semester for one of my academic courses. In Max MSP, I made a patch that lets me interact with variants of a point cloud shader and edit my point cloud in real time. This video is a mashup of some
+                of my favorite effects I got while doing a live 3D capture with my sister, who majors in dance. We plan to collaborate and update this work in progress.
+            </p>
+        </div> -->
+        </div>
+
+        <!-- Second Photo Grid -->
+        <!--
+        <div class="w3-third w3-container w3-margin-bottom">
+            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/vO9lAm1wfUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="w3-container w3-black">
+                <p><b>Timeline Installation</b></p>
+                <p>
+                    <!--I made an interactive timeline to show my home videos from when I was a one year old to present (2019). When I got older, the videos transitioned to experiences I recorded, rather than someone recording me, and you can start to see life through my lenses.
+            The pillows have sensors in them that allow me to traverse through the videos when I tap them. I chose this type of interaction to make the experience feel softer and more personal.
+                </p>
+            </div>
+        </div>
+
+        <div class="w3-third w3-container w3-margin-bottom">
+            <iframe width="373.3" height="210" src="https://www.youtube.com/embed/1nCSnX1rp1A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="w3-container w3-transparent">
+                <p><b>Hexx</b></p>
+                <p>
+                    <!--Hexx is an interactive installation that unites the audience with live electronic music. We set up motion tracking inside of the structure
+            and use that data in Ableton Live, using a Max for live plugin that we created. The motion is then an instrument or audio effect of choice for the musician. It can be plugged into Ableton Live for multiple uses.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    -->
+        <style>
+            .container {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+                .container div {
+                    margin: 10px;
+                }
+
+                .container img {
+                    height: 50px; /* Set a uniform height */
+                }
+        </style>
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <div style="flex: 1; margin: 10px;">
+        <h2 id="products">
+            Products 
+        </h2>
+        <div>
+            JMARS AR Viewer
+            <a target="JMARS AR" href="https://apps.apple.com/us/app/jmars-ar-viewer/id1501733717">
+                <img id="ios" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576281600&amp;h=20e65362c3b5bc62da56bb050e676342" alt="Download on the App Store">
+            </a>
+        </div>
+        <div style="flex: 1; margin: 10px;">
+            ASU Commencement
+            <a target="ASU Commencement" href="https://apps.apple.com/us/app/asu-commencement/id1543502081">
+                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1576281600&amp;h=20e65362c3b5bc62da56bb050e676342">
+            </a>
+        </div>
+        <div style="flex: 1; margin: 10px;">
+            Planetary Parfait 
+            <a target="blank" href="https://play.google.com/store/apps/details?id=edu.asu.ame.meteor.JMARSARViewer&amp;hl=en_US&amp;gl=US">
+                <img id="android" style="height: 75px;" alt="Get it on Google Play" src="https://lg-portfolio-images.s3.us-west-2.amazonaws.com/Google.png">
+            </a>
+        </div>
+        <div style="flex: 1; margin: 10px;">
+            Planetary Parfait 
+            <a target="blank" href="https://www.meta.com/experiences/5666705306792218/">
+                <img id="appLab" style="height: 75px;" alt="Planetary Parfait App Lab" src="https://lg-portfolio-images.s3.us-west-2.amazonaws.com/App_Lab_Download.png">
+            </a>
+        </div>
+        <div style="flex: 1; margin: 10px;">
+            Planetary Parfait 
+            <a target="blank" href="https://store.steampowered.com/app/2721860/Planetary_Parfait/">
+                <img style="height: 75px;" alt="Download on Steam" src="https://lg-portfolio-images.s3.us-west-2.amazonaws.com/Steam_Store_Download.png">
+            </a>
+        </div>
+    </div>
+</div>
+         
+
+
+
+
+
+
+        <div class="w3-container w3-padding-small" style="margin-bottom:0px" class="w3-left">
+            <h1 class="w3-left" id="news">News </h1>
+
+        </div>
+        <div class="w3-container w3-padding-small" style="margin-bottom:32px" class="w3-left">
+            <p><a href="https://www.linkedin.com/posts/robert-likamwa-a8b64918_our-ieee-vr-24-tutorial-on-mars-photogrammetry-ugcPost-7175567180330151936-ZmAy?utm_source=share&utm_medium=member_desktop"> IEEEVR Mars Photogrammetry Tutorial</a></p>
+            <p><a href="https://news.asu.edu/20221214-interplanetary-initiative-pilot-project-researcher-presents-american-geophysical-union"> AGU Data Visualization Competition Grand Prize</a></p>
+            <p><a href="https://news.asu.edu/20211203-creativity-asu-students-create-time-travel-experience-dreamscape-learn"> AME/Dreamscape Project</a></p>
+            <p><a href="https://news.asu.edu/20210927-summer-internship-nasa-jpl-was-more-virtual-asu-graduate-student"> NASA JPL Internship</a></p>
+            <p><a href="https://www.statepress.com/article/2020/12/spcommunity-asu-fall-2020-graduation-augmented-reality">ASU Commencement App</a></p>
+            <p><a href="https://issuu.com/arizonastateuniversity/docs/210115_asu_thrive_magazine_winter_january_2021_v24">ASU and Dreamscape Immersive</a></p>
+            <p><a href="https://news.asu.edu/20200805-create-your-own-planetary-adventure-asu%E2%80%99s-new-3d-terrain-app">JMARS AR/VR</a></p>
+        </div>
+        <div class="w3-container w3-padding-small" style="margin-bottom:32px" class="w3-left">
+            <h1 class="w3-left" id="about">About Me</h1>
+            <p class="w3-left">
+                I am a PhD student in the School of Arts, Media and Engineering at Arizona State University. I am member of the Meteor Studio Research Lab, which explores the research and design of software and hardware for mobile Augmented Reality, Virtual Reality, and Mixed Reality. My research interests revolve around immersive data visualization for complex, layered datasets. I recently held a Visiting Student Researcher Position at NASA's Jet Propulsion Laboratory where I designed and developed a Virtual Reality Mars image viewer to assist Rover Planning in the context of Mars mission operations.
+                Outside of work, you can find me practicing mauy thai or teaching a yoga class.
+            </p>
+            <!--<img src="https://lg-portfolio-images.s3.us-west-2.amazonaws.com/nasaSquare.JPG" style="width:20%;" class="w3-margin-right">
+        <img src="https://lg-portfolio-images.s3.us-west-2.amazonaws.com/roverSquareZoomed.JPG" style="width:20%;" class="w3-margin-right">
+        <img src="https://lg-portfolio-images.s3.us-west-2.amazonaws.com/natureSq.jpg" style="width:20%;" class="w3-margin-right">
+        <img src="https://lg-portfolio-images.s3.us-west-2.amazonaws.com/yogaSquare.JPG" style="width:20%;" class="w3-margin-right">
+         </div>-->
+        </div>
+
+
+        <h4 id="contact"></h4>
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px" class="w3-left">
+
+            <div class="w3-container w3-padding-large w3-white">
+                <hr>
+                <h4 id="contact"></h4>
+                <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16">
+                    <div class="w3-third w3-white">
+                        <p><i class="fa fa-envelope w3-xxlarge w3-text-grey"></i></p>
+                        <p>llgold@asu.edu</p>
+                    </div>
+                    <div class="w3-third w3-white">
+                        <p><i class="fa fa-map-marker w3-xxlarge w3-text-grey"></i></p>
+                        <p>Phoenix, AZ</p>
+                    </div>
+                    <div class="w3-third w3-white">
+                        <p><i class="fa fa-photo w3-xxlarge w3-text-grey"></i></p>
+                        <p>  <a target="_blank" href="https://lg-portfolio-images.s3.us-west-2.amazonaws.com/Resume2024.pdf"> Resume/CV </a></p>
+                    </div>
+                </div>
+                <hr class="w3-opacity">
+            </div>
+
+            <!-- Footer -->
+            <footer class="w3-container w3-padding-32 w3-white">
+                <div class="w3-row-padding">
+
+                </div>
+            </footer>
+        </div>
+    </div>
+
+        <!-- End page content -->
+
+
+        <script>
+            // Script to open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar").style.display = "block";//w3-bar-block
+                document.getElementById("myOverlay").style.display = "block";
+
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar").style.display = "none";
+                document.getElementById("myOverlay").style.display = "none";
+
+            }
+            function linktores() {
+                <a target="_blank" href="https://lg-portfolio-images.s3-us-west-2.amazonaws.com/Resume2024.pdf"></a>
+
+            }
+            function linktoAppStoreJMARS() {
+
+            }
+            function linktoPlayStoreJMARS() {
+
+            }
+            function linktoSteamStoreJMARS() {
+
+            }
+            function linktoAppLabVisor() {
+                
+            }
+        </script>
+
+</body>
+</html>
+
+
+
+
+<!-- third row
+<div class="w3-row-padding">
+    <div class="w3-third w3-container">
+        <iframe width="373.3" height="210" src="https://www.youtube.com/embed/zCMXipL9S9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="w3-container w3-black">
+            <p><b>Cake AR</b></p>
+            <p>I made this iOS gamein mobile development class when I was dabbling with multiplayer experiences and augmented reality for the first time. It was recognized at the Digital Culture Showcase in Spring 2019.</p>
+        </div>
+    </div>
+    <div class="w3-third w3-container w3-dark">
+        <iframe width="373.3" height="210" src="https://www.youtube.com/embed/BsTHp-RLW0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="w3-container w3-transparent">
+            <p> <div class="w3-container w3-text-light-grey"> </div><b>Musical Raspberry Pi</b></p>
+            <p>I created a musical composition out of sounds curated in Java with the help of the Happy Brackets toolkit. I made use of the accelerometer on the Raspberry Pi hat to control which pattern to play. </p>
+        </div>
+    </div>
+
+<div class="w3-third w3-container">
+    <iframe width="373.3" height="210" src="https://www.youtube.com/embed/yJTUMIc99Kg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> style="width:100%" class="w3-hover-opacity"</iframe>
+    <div class="w3-container w3-black">
+        <p><b>Video Editing</b></p>
+        <p>In film editing class, we had to make a documentary of ourselves. I thought my awkward dances would speak louder than words. I don't know if I had more fun filming it, dancing in it, or editing it. It was recognized as one of the top films in class.</p>
+    </div>
+</div>
+Third Photo Grid-->
+<!--Pagination
+<div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+        <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+
+-->
+<!-- Snapcodes - insert new AR pics here !
+        <div class="w3-col m3">
+            <img src="/Users/laurengold/Desktop/snapcodes/Azami.png" alt="Me" style="width:100%">
+        </div>
+        <div class="w3-col m3">
+            <img src="/Users/laurengold/Desktop/snapcodes/Carouselsnapcode.png" alt="Me" style="width:100%">
+        </div>
+        <div class="w3-col m3">
+            <img src="/Users/laurengold/Desktop/snapcodes/DanceSnapcode.png
+" alt="Me" style="width:100%">
+        </div>
+        -->
